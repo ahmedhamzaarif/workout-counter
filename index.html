@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>People Counter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container-fluid py-5">
+        <div class="card p-3">
+            <div class="card-body text-center">
+                <h2 class="card-title">Workout Counter</h2>
+                <div class="card-text">Count reps in each set</div>
+                <div id="count-el" class="fs-4 pb-2">0</div>
+                <div class="btn-group">
+                    <button class="btn btn-primary" onclick="increment()">Increment</button>
+                    <button class="btn btn-success" onclick="save()">Save</button>
+                </div>
+                <div id="save-el" class="fs-6 mt-3 text-start">Previous sets: </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
